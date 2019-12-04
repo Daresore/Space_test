@@ -9,14 +9,91 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
-            margin: 10px 0px 5px 0px;
+            margin: 30px 0px 0px 10px;
+            align-items: center;
+            font-size: 25px;
+        }
+        .ramka_main {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
             align-items: center;
             background: white;
+            width: 130vh;
+            height: 300vh;
+            border: 2px solid black;
+            border-radius: 70px;
+        }
+        .butons {
+           display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0px 0px 0px 0px;
+            width: 170px;
+            height: 50px;
+            align-items: center;
             border-radius: 10px;
+            border: 1px solid black;
+            font-size: 25px;
+            background: white;
+            cursor: pointer;
+        }
+        .butons:hover {
+            background: gainsboro;
         }
     </style>
 </head>
-<body>
-
+<body style="display: flex; justify-content: center; align-items: center; background: honeydew">
+<div class="ramka_main">
+    <div class="question">1. Как звали первое животное, выведенное на орбиту Земли?<p>
+        <input type="radio" name="Q1" id="1_1">Белка и Стрелка<br>
+        <input type="radio" name="Q1" id="1_2">Нил Армстронг<br>
+        <input type="radio" name="Q1" id="1_3">Лайка<br>
+    </p></div>
+    <div class="question">2. Как звали первого американского астронавта?<p>
+        <input type="radio" name="Q2" id="2_1">Нил Армстронг<br>
+        <input type="radio" name="Q2" id="2_2">Илон Маск<br>
+        <input type="radio" name="Q2" id="2_3">Алан Шепард<br>
+    </p></div>
+    <div class="question">3. В каком году Юрий Гагарин полетел в космос?<p>
+        <input type="radio" name="Q3" id="3_1">В 1962 году<br>
+        <input type="radio" name="Q3" id="3_2">В 1961 году<br>
+        <input type="radio" name="Q3" id="3_3">В 2016 году<br>
+    </p></div>
+    <div class="question">4. Сколько официально планет в Солнечной системе?<p>
+        <input type="radio" name="Q4" id="4_1">8<br>
+        <input type="radio" name="Q4" id="4_2">9<br>
+        <input type="radio" name="Q4" id="4_3">Их там нет<br>
+    </p></div>
+    <div class="question">5. Как называется наша галактика?<p>
+        <input type="radio" name="Q5" id="5_1">Млечный путь<br>
+        <input type="radio" name="Q5" id="5_2">Андромеда<br>
+        <input type="radio" name="Q5" id="5_3">Нибиру<br>
+    </p></div>
+    <div class="question">6. Перед полётом российские экипажи традиционно смотрят советский фильм Владимира Мотыля
+        «Белое солнце пустыни». Почему именно его?<p>
+        <input type="radio" name="Q6" id="6_1">Он итересный и красивый<br>
+        <input type="radio" name="Q6" id="6_2">На примере фильма космонавтов учат операторскому и режиссёрскому мастерству<br>
+        <input type="radio" name="Q6" id="6_3">Он снимает напряжение и помогает лучше переносить взлёт<br>
+    </p></div>
+    <div class="question">7. На Байконуре есть день, когда не проводятся старты. Какая это дата и почему?<p>
+        <input type="radio" name="Q7" id="7_1">24 октября считается чёрным днём космонавтики<br>
+        <input type="radio" name="Q7" id="7_2">12 апреля в день славы Юрия Гагарина<br>
+        <input type="radio" name="Q7" id="7_3">31 декабря и 1 января, так как Новый год<br>
+    </p></div>
+    <div class="question">8. Международная космическая станция нуждается в регулярном пополнении запасов.
+        Многоцелевые модули снабжения для МКС доставляют на станцию необходимое научное оборудование и другие грузы.
+        Их три, и у каждого есть имя. Каих из зовут?<p>
+        <input type="radio" name="Q8" id="8_1">В честь известных космонавтов — «Гагарин», «Армстронг» и «Шепард»<br>
+        <input type="radio" name="Q8" id="8_2">Как черепашки-ниндзя — «Леонардо», «Рафаэль» и «Донателло»<br>
+        <input type="radio" name="Q8" id="8_3">Их назвали по размерам: «Малыш», «Универсал» и «Здоровяк»<br>
+    </p></div>
+    <div class="butons">Проверить</div>
+</div>
 </body>
+<script>
+    function check() {
+
+    }
+</script>
 </html>
